@@ -724,4 +724,4 @@ function parseCurrency(currencyString) {
         .replace(',', '.');       // Converte vírgula decimal em ponto
 
     return parseFloat(cleanString) || 0;
-}
+};
